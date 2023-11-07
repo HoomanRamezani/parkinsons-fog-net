@@ -5,6 +5,8 @@ This project explores deep learning techniques to predict the occurrence of Free
 ## Data
 A public dataset regarding the detection of Freezing of Gait using physiological data was released in late 2022 [7]. This dataset contains readings from various sensors reading electroencephalogram (EEG), electromyogram (EMG), gait acceleration (ACC), and skin conductance (SC) from 12 patients with Parkinson’s Disease, as well as if Freezing of Gait is detected within a specific timeframe.
 
+![](/results/FOGVis.png)
+
 ## Project Structure
 The repository is structured as follows:
 ```
@@ -34,6 +36,8 @@ The models' performances, ranked from best to worst, are as follows:
 * TCN: 90%
 * GRU: 88%
 The InceptionTime model outperformed other architectures, providing a high accuracy rate and proving to be an effective tool for FOG prediction.
+
+![](/results/InceptionTimeResults.png)
 
 ## To use the code in this repository:
 * Clone the repo: `git clone https://github.com/username/project-name.git`
