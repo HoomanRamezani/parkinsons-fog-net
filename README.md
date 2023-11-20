@@ -13,7 +13,7 @@ The repository is structured as follows:
 data/: Contains the raw datasets used for training and evaluation.
 models/: Holds the trained models and their weights for future reference or additional training.
 notebooks/: Jupyter notebooks detailing the experiments, model training, and evaluation process.
-src/: Source code for data preprocessing, model implementation, and utility functions.
+src/: Additional files for preprocessing, model implementation, and utility functions.
 results/: Performance metrics, graphs, and confusion matrices from model evaluations.
 requirements.txt: Python dependencies required to run the codebase.
 ```
